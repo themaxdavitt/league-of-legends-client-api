@@ -1,0 +1,5 @@
+lib
+node_modules
+client.d.ts
+openapi.json
+riotgames.pem

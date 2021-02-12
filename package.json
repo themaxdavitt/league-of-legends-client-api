@@ -1,0 +1,36 @@
+{
+  "name": "@themaxdavitt/league-of-legends-client-api",
+  "version": "0.0.0",
+  "description": "Auto-generated axios-powered League of Legends Client API client",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && ts-node build.ts && typegen openapi.json > client.d.ts && tsc && cpy riotgames.pem lib && cpy client.d.ts lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "themaxdavitt/league-of-legends-client-api"
+  },
+  "keywords": [
+    "api",
+    "riot",
+    "riot games",
+    "lol",
+    "league of legends"
+  ],
+  "author": "Max Davitt <max@davitt.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "cpy-cli": "^3.1.1",
+    "openapi-client-axios-typegen": "^3.11.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "openapi-client-axios": "^3.11.2",
+    "openapi-types": "^7.2.3"
+  }
+}
