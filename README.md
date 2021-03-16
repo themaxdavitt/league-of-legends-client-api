@@ -11,6 +11,10 @@ We pull an OpenAPI 3.0 definition from a running client, and then feed it into
 
 We do this automatically in `npm run build` before publishing. Just sit back and relax.
 
+## Documentation
+
+After building, HTML documentation is generated in a `docs/` folder. You can access it at `node_modules/@themaxdavitt/league-of-legends-client-api/docs/index.html` or [online](https://themaxdavitt.github.io/game-apis/league-of-legends-client-api/).
+
 ## Versioning
 
 We're following a [SemVer](https://semver.org/)-compatible version of [CalVer](https://calver.org/) (similar to `date +0.%Y.%j`) since we have no idea when Riot will update their APIs.
