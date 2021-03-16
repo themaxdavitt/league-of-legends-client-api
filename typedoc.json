@@ -1,0 +1,7 @@
+{
+    "entryPoints": ["index.ts", "client.d.ts"],
+    "out": "docs",
+    "json": "docs/docs.json",
+    "includeVersion": true,
+    "readme": "README.md"
+}

@@ -4,8 +4,10 @@ import OpenAPIClientAxios from 'openapi-client-axios';
 import { OpenAPIV3 } from 'openapi-types';
 import { join } from 'path';
 
-import { Client } from './client';
+import { Client, Components } from './client';
 import def from './openapi.json';
+
+export import Schemas = Components.Schemas;
 
 export const definition = def as unknown as OpenAPIV3.Document;
 
