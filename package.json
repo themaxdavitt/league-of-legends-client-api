@@ -1,6 +1,6 @@
 {
   "name": "@themaxdavitt/league-of-legends-client-api",
-  "version": "0.2021.43",
+  "version": "0.2021.75",
   "description": "Auto-generated axios-powered League of Legends Client API client",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
